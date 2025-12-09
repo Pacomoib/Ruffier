@@ -19,7 +19,7 @@ from instructions import txt_instruction, txt_test1, txt_test2, txt_test3, txt_s
 from ruffier import test
 
 # Importa el widget personalizado Seconds, usado como temporizador
-from seconds import Seconds
+from second import Seconds
 
 # Variables globales para almacenar datos del usuario y mediciones del pulso
 age = 7
@@ -343,3 +343,4 @@ class HeartCheck(App):
 # Instancia y ejecuta la aplicación
 app = HeartCheck()
 app.run()
+
